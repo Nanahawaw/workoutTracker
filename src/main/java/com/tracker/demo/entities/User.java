@@ -6,6 +6,7 @@ import org.springframework.data.annotation.CreatedDate;
 
 @Data
 @Entity
+@Table(name="users")
 public class User {
 
     @Id

@@ -8,6 +8,7 @@ import java.util.Date;
 
 @Data
 @Entity
+@Table(name="workouts")
 public class Workout {
 
     @Id
